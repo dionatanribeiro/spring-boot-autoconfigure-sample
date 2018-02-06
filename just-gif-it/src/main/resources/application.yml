@@ -1,0 +1,20 @@
+spring:
+  servlet:
+    multipart:
+      location: ${java.io.tmpdir}
+      max-file-size: 50MB
+      max-request-size: 50MB
+  mvc:
+    favicon:
+      enabled: false
+
+multipart:
+  location: ${java.io.tmpdir}
+
+logging:
+  level:
+    org.springframework.boot: DEBUG
+
+com.justgifit:
+  gif-location: ${java.io.tmpdir}/gif
+  optimize: true
