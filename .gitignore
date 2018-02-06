@@ -1,5 +1,7 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
+*.json
+*.mp4
 
 ### STS ###
 .apt_generated
